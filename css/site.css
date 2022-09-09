@@ -1,0 +1,60 @@
+body {
+    font-family: Verdana;
+    background-color: Navy;
+    font-size: 300%;
+    color: silver;
+    padding: 5;
+    margin: 5px;
+    /* display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh; */
+
+}
+head{
+    font-family: Helvetica;
+}
+
+
+
+/* .container {
+  width: 800px;
+  max-width: 80%;
+  background-color: grey;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px 2px;
+} */
+img {
+      width:50%;
+      height:50%;
+      position: center;
+
+}
+
+.navBar {
+  background-color: silver;
+  overflow: hidden;
+}
+
+.navBar a {
+  float: left;
+  color: #50838c;
+  text-align: center;
+  padding: 20px 24px;
+  text-decoration: none;
+  font-size: 15px;
+
+}
+
+.navBar a:hover {
+  background-color: white;
+  color: navy;
+
+}
+
+.navBar a.active {
+  background-color: #50618c;
+  color: #a5c8e8;
+}
